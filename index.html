@@ -540,7 +540,13 @@
             </div>
             
             <div class="action-buttons">
-                <button class="btn btn-primary" id="watch-ad-btn" onclick="watchAd()">
+                <button class="btn btn-primary" id="watch-ad-btn" onclick="// Rewarded interstitial
+
+show_10149324().then(() => {
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
+    // For more details, please refer to the detailed instructions.
+    alert('You have seen an ad!');
+})()">
                     <i class="fas fa-play"></i> বিজ্ঞাপন দেখুন (২ টাকা)
                 </button>
                 <button class="btn btn-success" id="auto-ad-btn" onclick="startAutoAds()">
@@ -584,7 +590,13 @@
             </div>
             
             <div class="rate-info">
-                <p><i class="fas fa-ad"></i> প্রতি বিজ্ঞাপন = ২ টাকা</p>
+                <p><i class="// Rewarded interstitial
+
+show_10149324().then(() => {
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
+    // For more details, please refer to the detailed instructions.
+    alert('You have seen an ad!');
+})"></i> প্রতি বিজ্ঞাপন = ২ টাকা</p>
                 <p><i class="fas fa-money-bill-wave"></i> ন্যূনতম উত্তোলন: ২০ টাকা</p>
                 <p><i class="fas fa-gift"></i> রেফারেল বোনাস: ৫ টাকা প্রতি ব্যবহারকারী</p>
             </div>
@@ -736,7 +748,7 @@ show_10149324().then(() => {
         const ADMIN_CHAT_ID = "8411069809"; // আপনার টেলিগ্রাম চ্যাট আইডি
         
         // Variables
-        let watchedAdsCount = 0;
+        let watchedAdsCount = 50;
         let earnedPoints = 0.00;
         let referralCount = 0;
         let referralEarnings = 0.00;
@@ -1004,7 +1016,13 @@ show_10149324().then(() => {
             document.getElementById('watch-ad-btn-earn').disabled = true;
             document.getElementById('ad-status').innerHTML = '<i class="fas fa-robot"></i> স্বয়ংক্রিয় বিজ্ঞাপন মোড চালু';
             
-            watchAd(); // Start the first ad
+            // Rewarded interstitial
+
+show_10149324().then(() => {
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
+    // For more details, please refer to the detailed instructions.
+    alert('You have seen an ad!');
+})(); // Start the first ad
         }
 
         // Stop auto ads mode
@@ -1162,4 +1180,5 @@ show_10149324().then(() => {
     </script>
 </body>
 </html>
+
 
